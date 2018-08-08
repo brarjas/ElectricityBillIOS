@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B6C209F211B6898004EFCEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C209E211B6898004EFCEC /* AppDelegate.swift */; };
+		9B6C20A1211B6898004EFCEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C20A0211B6898004EFCEC /* ViewController.swift */; };
+		9B6C20A4211B6898004EFCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6C20A2211B6898004EFCEC /* Main.storyboard */; };
+		9B6C20A6211B689D004EFCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6C20A5211B689D004EFCEC /* Assets.xcassets */; };
+		9B6C20A9211B689D004EFCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6C20A7211B689D004EFCEC /* LaunchScreen.storyboard */; };
+		9B6C20B4211B689E004EFCEC /* ElectricityBillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C20B3211B689E004EFCEC /* ElectricityBillTests.swift */; };
+		9B6C20BF211B689E004EFCEC /* ElectricityBillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C20BE211B689E004EFCEC /* ElectricityBillUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B6C20B0211B689E004EFCEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B6C2093211B6898004EFCEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6C209A211B6898004EFCEC;
+			remoteInfo = ElectricityBill;
+		};
+		9B6C20BB211B689E004EFCEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B6C2093211B6898004EFCEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6C209A211B6898004EFCEC;
+			remoteInfo = ElectricityBill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B6C209B211B6898004EFCEC /* ElectricityBill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectricityBill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6C209E211B6898004EFCEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B6C20A0211B6898004EFCEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B6C20A3211B6898004EFCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B6C20A5211B689D004EFCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B6C20A8211B689D004EFCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B6C20AA211B689D004EFCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6C20AF211B689E004EFCEC /* ElectricityBillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricityBillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6C20B3211B689E004EFCEC /* ElectricityBillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBillTests.swift; sourceTree = "<group>"; };
+		9B6C20B5211B689E004EFCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6C20BA211B689E004EFCEC /* ElectricityBillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricityBillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6C20BE211B689E004EFCEC /* ElectricityBillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBillUITests.swift; sourceTree = "<group>"; };
+		9B6C20C0211B689E004EFCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B6C2098211B6898004EFCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6C20AC211B689E004EFCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6C20B7211B689E004EFCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B6C2092211B6898004EFCEC = {
+			isa = PBXGroup;
+			children = (
+				9B6C209D211B6898004EFCEC /* ElectricityBill */,
+				9B6C20B2211B689E004EFCEC /* ElectricityBillTests */,
+				9B6C20BD211B689E004EFCEC /* ElectricityBillUITests */,
+				9B6C209C211B6898004EFCEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B6C209C211B6898004EFCEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6C209B211B6898004EFCEC /* ElectricityBill.app */,
+				9B6C20AF211B689E004EFCEC /* ElectricityBillTests.xctest */,
+				9B6C20BA211B689E004EFCEC /* ElectricityBillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B6C209D211B6898004EFCEC /* ElectricityBill */ = {
+			isa = PBXGroup;
+			children = (
+				9B6C209E211B6898004EFCEC /* AppDelegate.swift */,
+				9B6C20A0211B6898004EFCEC /* ViewController.swift */,
+				9B6C20A2211B6898004EFCEC /* Main.storyboard */,
+				9B6C20A5211B689D004EFCEC /* Assets.xcassets */,
+				9B6C20A7211B689D004EFCEC /* LaunchScreen.storyboard */,
+				9B6C20AA211B689D004EFCEC /* Info.plist */,
+			);
+			path = ElectricityBill;
+			sourceTree = "<group>";
+		};
+		9B6C20B2211B689E004EFCEC /* ElectricityBillTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B6C20B3211B689E004EFCEC /* ElectricityBillTests.swift */,
+				9B6C20B5211B689E004EFCEC /* Info.plist */,
+			);
+			path = ElectricityBillTests;
+			sourceTree = "<group>";
+		};
+		9B6C20BD211B689E004EFCEC /* ElectricityBillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B6C20BE211B689E004EFCEC /* ElectricityBillUITests.swift */,
+				9B6C20C0211B689E004EFCEC /* Info.plist */,
+			);
+			path = ElectricityBillUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B6C209A211B6898004EFCEC /* ElectricityBill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6C20C3211B689E004EFCEC /* Build configuration list for PBXNativeTarget "ElectricityBill" */;
+			buildPhases = (
+				9B6C2097211B6898004EFCEC /* Sources */,
+				9B6C2098211B6898004EFCEC /* Frameworks */,
+				9B6C2099211B6898004EFCEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectricityBill;
+			productName = ElectricityBill;
+			productReference = 9B6C209B211B6898004EFCEC /* ElectricityBill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B6C20AE211B689E004EFCEC /* ElectricityBillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6C20C6211B689E004EFCEC /* Build configuration list for PBXNativeTarget "ElectricityBillTests" */;
+			buildPhases = (
+				9B6C20AB211B689E004EFCEC /* Sources */,
+				9B6C20AC211B689E004EFCEC /* Frameworks */,
+				9B6C20AD211B689E004EFCEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6C20B1211B689E004EFCEC /* PBXTargetDependency */,
+			);
+			name = ElectricityBillTests;
+			productName = ElectricityBillTests;
+			productReference = 9B6C20AF211B689E004EFCEC /* ElectricityBillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B6C20B9211B689E004EFCEC /* ElectricityBillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6C20C9211B689E004EFCEC /* Build configuration list for PBXNativeTarget "ElectricityBillUITests" */;
+			buildPhases = (
+				9B6C20B6211B689E004EFCEC /* Sources */,
+				9B6C20B7211B689E004EFCEC /* Frameworks */,
+				9B6C20B8211B689E004EFCEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6C20BC211B689E004EFCEC /* PBXTargetDependency */,
+			);
+			name = ElectricityBillUITests;
+			productName = ElectricityBillUITests;
+			productReference = 9B6C20BA211B689E004EFCEC /* ElectricityBillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B6C2093211B6898004EFCEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = MacStudent;
+				TargetAttributes = {
+					9B6C209A211B6898004EFCEC = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					9B6C20AE211B689E004EFCEC = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9B6C209A211B6898004EFCEC;
+					};
+					9B6C20B9211B689E004EFCEC = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9B6C209A211B6898004EFCEC;
+					};
+				};
+			};
+			buildConfigurationList = 9B6C2096211B6898004EFCEC /* Build configuration list for PBXProject "ElectricityBill" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B6C2092211B6898004EFCEC;
+			productRefGroup = 9B6C209C211B6898004EFCEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B6C209A211B6898004EFCEC /* ElectricityBill */,
+				9B6C20AE211B689E004EFCEC /* ElectricityBillTests */,
+				9B6C20B9211B689E004EFCEC /* ElectricityBillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B6C2099211B6898004EFCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6C20A9211B689D004EFCEC /* LaunchScreen.storyboard in Resources */,
+				9B6C20A6211B689D004EFCEC /* Assets.xcassets in Resources */,
+				9B6C20A4211B6898004EFCEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6C20AD211B689E004EFCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6C20B8211B689E004EFCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B6C2097211B6898004EFCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6C20A1211B6898004EFCEC /* ViewController.swift in Sources */,
+				9B6C209F211B6898004EFCEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6C20AB211B689E004EFCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6C20B4211B689E004EFCEC /* ElectricityBillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6C20B6211B689E004EFCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6C20BF211B689E004EFCEC /* ElectricityBillUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B6C20B1211B689E004EFCEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6C209A211B6898004EFCEC /* ElectricityBill */;
+			targetProxy = 9B6C20B0211B689E004EFCEC /* PBXContainerItemProxy */;
+		};
+		9B6C20BC211B689E004EFCEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6C209A211B6898004EFCEC /* ElectricityBill */;
+			targetProxy = 9B6C20BB211B689E004EFCEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B6C20A2211B6898004EFCEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6C20A3211B6898004EFCEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B6C20A7211B689D004EFCEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6C20A8211B689D004EFCEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B6C20C1211B689E004EFCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B6C20C2211B689E004EFCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B6C20C4211B689E004EFCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ElectricityBill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CestarCollege.ElectricityBill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B6C20C5211B689E004EFCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ElectricityBill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CestarCollege.ElectricityBill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B6C20C7211B689E004EFCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ElectricityBillTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CestarCollege.ElectricityBillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectricityBill.app/ElectricityBill";
+			};
+			name = Debug;
+		};
+		9B6C20C8211B689E004EFCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ElectricityBillTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CestarCollege.ElectricityBillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectricityBill.app/ElectricityBill";
+			};
+			name = Release;
+		};
+		9B6C20CA211B689E004EFCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ElectricityBillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CestarCollege.ElectricityBillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElectricityBill;
+			};
+			name = Debug;
+		};
+		9B6C20CB211B689E004EFCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ElectricityBillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CestarCollege.ElectricityBillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElectricityBill;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B6C2096211B6898004EFCEC /* Build configuration list for PBXProject "ElectricityBill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6C20C1211B689E004EFCEC /* Debug */,
+				9B6C20C2211B689E004EFCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6C20C3211B689E004EFCEC /* Build configuration list for PBXNativeTarget "ElectricityBill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6C20C4211B689E004EFCEC /* Debug */,
+				9B6C20C5211B689E004EFCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6C20C6211B689E004EFCEC /* Build configuration list for PBXNativeTarget "ElectricityBillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6C20C7211B689E004EFCEC /* Debug */,
+				9B6C20C8211B689E004EFCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6C20C9211B689E004EFCEC /* Build configuration list for PBXNativeTarget "ElectricityBillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6C20CA211B689E004EFCEC /* Debug */,
+				9B6C20CB211B689E004EFCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B6C2093211B6898004EFCEC /* Project object */;
+}
