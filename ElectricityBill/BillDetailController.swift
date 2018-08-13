@@ -14,12 +14,16 @@ class BillDetailController: UIViewController {
 
     @IBOutlet weak var CustName1: UILabel!
     
-
+    @IBOutlet weak var EmailAddress1: UILabel!
+    
+   
     @IBOutlet weak var BilDate1: UILabel!
     
     @IBOutlet weak var UnitConsumed1: UILabel!
     
     
+    
+   
     @IBOutlet weak var gender1: UILabel!
     
     @IBOutlet weak var TotalBill1: UILabel!
@@ -41,6 +45,7 @@ class BillDetailController: UIViewController {
         
         CustId1.text = "\(bill1?.custId ?? 0)" // "\(String(describing: bill1?.custId!))"
         CustName1.text = "\(bill1?.custName ?? "")"
+        EmailAddress1.text = "\(bill1?.userEmail ?? "")"
         BilDate1.text = "\(bill1?.bilDate ?? "")"
         UnitConsumed1.text = "\(bill1?.unitConsumed ?? 0)"
         gender1.text = "\(bill1?.gender ?? GenderSelect.Male)"

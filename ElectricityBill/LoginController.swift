@@ -57,7 +57,11 @@ class LoginController: UIViewController {
         
         }
         else {
-            print("Wrong Email or password")
+            let alert = UIAlertController(title: "Alert", message: "Wrong email or password", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            
+            // show the alert
+            self.present(alert, animated: true, completion: nil)
         }
     }
 }

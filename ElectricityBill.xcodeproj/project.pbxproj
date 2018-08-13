@@ -17,6 +17,7 @@
 		9B6C20CD211B68F5004EFCEC /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C20CC211B68F5004EFCEC /* LoginController.swift */; };
 		9B6C20D1211B71B1004EFCEC /* BillDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C20D0211B71B1004EFCEC /* BillDetailController.swift */; };
 		9B6C20D3211B7991004EFCEC /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C20D2211B7991004EFCEC /* SplashController.swift */; };
+		9B97B4782122036200882951 /* bill app.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B97B4772122035F00882951 /* bill app.png */; };
 		9BAD3227211CBCE90078540D /* ElectricityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD3226211CBCE80078540D /* ElectricityViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		9B6C20CC211B68F5004EFCEC /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		9B6C20D0211B71B1004EFCEC /* BillDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDetailController.swift; sourceTree = "<group>"; };
 		9B6C20D2211B7991004EFCEC /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		9B97B4772122035F00882951 /* bill app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bill app.png"; sourceTree = "<group>"; };
 		9BAD3226211CBCE80078540D /* ElectricityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectricityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 			children = (
 				9BAD3226211CBCE80078540D /* ElectricityViewController.swift */,
 				9B6C209E211B6898004EFCEC /* AppDelegate.swift */,
+				9B97B4772122035F00882951 /* bill app.png */,
 				9B6C20A0211B6898004EFCEC /* ViewController.swift */,
 				9B6C20A2211B6898004EFCEC /* Main.storyboard */,
 				9B6C20A5211B689D004EFCEC /* Assets.xcassets */,
@@ -244,6 +247,7 @@
 				9B6C20A9211B689D004EFCEC /* LaunchScreen.storyboard in Resources */,
 				9B6C20A6211B689D004EFCEC /* Assets.xcassets in Resources */,
 				9B6C20A4211B6898004EFCEC /* Main.storyboard in Resources */,
+				9B97B4782122036200882951 /* bill app.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
